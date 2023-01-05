@@ -1,0 +1,23 @@
+* various important points when we are installing packages or softwares
+
+* this is concepts of file permissions and how we can remove or give certain permissions to certain users
+  - rw- r-- r--
+    u   g   o   these are the arguments used for above notation and each refer as user  group  other
+  r - read
+  w - write
+  x - execute
+  chmod o+x demo.txt   here we are giving executable permission to demo.txt for other
+  chmod u+x demo.txt   here we are giving executable permisssion to demo.txt for user
+  chmod g-x demo.txt   here we are removing executable permission to demo.txt for group
+* chmod is used for changing the mod of the file, example giving read or write or execute permission, or removing them
+
+* once we have downloaded .deb file for debian/ubuntu then we should go to downloads section in terminal and then give executable permission to this .deb file
+  then in terminal run this command
+  sudo apt install ./package_name.deb
+
+
+* if we have downloaded a zip folder for a software or package, then unzip the folder then cd into that folder through terminal and give executable permission to this .sh 
+  file and then in terminal run this command
+  example:
+  ./Anaconda3-2022.10-Linux-x86_64.sh 
+  ./file_name.sh                      (second example)

@@ -1,0 +1,21 @@
+* for example we have demo.c and art.cpp, two programs of c and c++ language. To run them through terminal we have to compile them first for this
+***********Compiling in c*****************
+* ANYONE OF THESE COMMANDS CAN BE USED
+1) gcc demo.c -o demo
+2) cc demo.c -o demo
+3) make demo
+* after any of this commands a executable file is created through which we will run our program
+******************************************
+
+***********Compiling in c++****************
+* ANYONE OF THESE COMMANDS CAN BE USED
+1) g++ art.cpp -o art
+2) make art
+* after any of this commands a executable file is created through which we will run our program
+*******************************************
+
+**********Running the executable***********
+./art
+* to run the art.cpp
+./demo
+* to run the demo.c

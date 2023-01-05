@@ -1,0 +1,9 @@
+* conda --version
+  gives the version of anaconda installed on system
+* conda activate
+  gives base at the beginning of the path of terminal, indicating that now we can operate anaconda-navigator
+  In this case (base) marks you are using the default anaconda environment.
+* anaconda-navigator
+  opens the navigator now, after conda activate command
+* conda deactivate
+  to close conda, and to remove base from the beginning of the path oof terminal
