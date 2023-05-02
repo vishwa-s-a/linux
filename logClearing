@@ -1,0 +1,22 @@
+* if log files have taken up lot of space then you need to clear(not to delete) them using this command(for this first become super user by giving first command):
+
+sudo su
+cat /dev/null > syslog
+
+in the above code I used the syslog for an example, but you can do this for most any of the files in the log folder, such as
+
+auth.log
+auth.log.(any number)
+user.log
+syslog
+rpmpkgs
+msec.log
+messages
+auto.log
+boot.log
+
+Do not do this to
+
+lastlog
+
+

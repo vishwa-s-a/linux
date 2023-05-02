@@ -86,3 +86,5 @@
 > to open the navigator after bash command
 * conda config --set auto_activate_base false
 > to remove base from left corner of the terminal path
+* sudo chown vishwa /data/db
+> here we are giving read and write admin privilages to user named vishwa for /data/db this folder
